@@ -1,4 +1,4 @@
-FROM sysnetcz/postgis:11.0-2.5
+FROM sysnetcz/postgis:latest
 MAINTAINER rjaeger@sysnet.cz
  
 RUN apt-get -y update; apt-get install -y postgresql-client
